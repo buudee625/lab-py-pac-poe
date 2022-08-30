@@ -126,14 +126,14 @@ def referee():
     #             print('X won vertical')
     #             game_over = True
     # check diagonal winning
-    if '' not in row2[1]:
-        if row1[0] == row2[1] == row3[2] or row1[2] == row2[1] == row3[0]:
-            if 'O' in row2[1]:
-                print('O won diagonal')                
-                game_over = True
-            else: 
-                print('X won diagonal')
-                game_over = True
+    # if '' not in row2[1]:
+    #     if row1[0] == row2[1] == row3[2] or row1[2] == row2[1] == row3[0]:
+    #         if 'O' in row2[1]:
+    #             print('O won diagonal')                
+    #             game_over = True
+    #         else: 
+    #             print('X won diagonal')
+    #             game_over = True
                 
 game_engine()
 # print('Player O emerges victorious in this fearsome battle!') 
